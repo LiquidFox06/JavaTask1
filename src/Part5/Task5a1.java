@@ -1,17 +1,21 @@
 package Part5;
+
 import java.util.Scanner;
+
 public class Task5a1 {
     public static void main(String[] args) {
-        // Scanner rr=new Scanner(System.in);
-        int i,P;
-        P=0;
+        Scanner in = new Scanner(System.in);
+        int a, b, sum = 0;
 
-        for (i = 1; i <= 1; i++) {
-             P=2-P*P;
+        System.out.print("Введите a: ");
+        a = in.nextInt();
+        System.out.print("Введите b: ");
+        b = in.nextInt();
 
-            System.out.println(P);
+        for (int i = a; i <= b; i++) {
+            sum += i * i;
         }
-
+        System.out.println(sum);
     }
 }
 

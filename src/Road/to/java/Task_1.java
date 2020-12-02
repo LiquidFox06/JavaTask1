@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class Task_1 {
     public static void main(String[] args) {
-        Scanner  in = new Scanner(System.in);
-        int a,b,с;
+        Scanner in = new Scanner(System.in);
+        int a, b, с;
         String t;
         System.out.println("В каком году вы родились?");
         a = in.nextInt();
@@ -15,11 +15,11 @@ public class Task_1 {
         System.out.println("В каком году  тебе будет 16?");
         с = in.nextInt();
         System.out.println("какой твой город?");
-        t=in.next();
+        t = in.next();
         System.out.println("Вы родились в  " + a);
         System.out.println("Мне  " + b);
-        System.out.println("В  " +с );
+        System.out.println("В  " + с);
         System.out.println("Твой город " + t);
-       // t=in.nextLine();
+        // t=in.nextLine();
     }
 }
